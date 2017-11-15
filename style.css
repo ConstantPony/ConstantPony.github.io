@@ -30,7 +30,7 @@ div {
 
   margin-left: 15px;
   margin-bottom: 15px;
-  background-image: url(img/pencil.png);
+  background-image: url(pencil.png);
   background-color: rgbA(244,244,244,.9);
   background-size: contain;
   
@@ -42,7 +42,7 @@ div {
   
   margin-left: 15px;
   margin-bottom: 15px;
-  background-image: url(img/load.png);
+  background-image: url(load.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgbA(244,244,244,.9);
