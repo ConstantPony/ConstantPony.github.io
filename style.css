@@ -1,0 +1,127 @@
+/* #today {
+  border: 3px dashed grey;
+}
+*/
+
+body {
+  background-image: linear-gradient(to right, rgbA(0,100,200,.2), rgbA(0,0,0,.02)); 
+  background-size: 100%;
+  user-select: none;
+}
+
+div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#fun {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 200px;
+  background-color: rgbA(244,244,244,.9);
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 4%;
+}
+
+#crt {
+  margin-top: 20px;
+
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-image: url(img/pencil.png);
+  background-color: rgbA(244,244,244,.9);
+  background-size: contain;
+  
+  border: 0px solid white;
+}
+
+#load {
+  margin-top: 20px;
+  
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-image: url(img/load.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgbA(244,244,244,.9);
+  background-size: contain;
+  
+  border: 0px solid white;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  transition: .2s;
+  outline: none;
+}
+
+.btn:hover {
+  width: 75px;
+  height: 75px;
+  transition: .2s;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.wrap {
+  margin-left: 20%;
+  border-bottom: 2px solid grey;
+  border-bottom-right-radius: 25%; 
+  padding-bottom: 7px;
+  width: 50%;
+  position: relative;
+  min-height: 100px;
+  
+}
+
+.time {
+  min-width: 20px;
+  border: 2px solid grey;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  padding: 5px;
+  margin-right: 20px;
+  color: beige;
+  background-color: grey;
+  min-width: 60px;
+}
+
+.date {
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  border: 1px solid grey;
+  border-radius: 10%;
+  margin-bottom: 10px;
+  color: grey;
+  width: 70px;
+}
+
+.date .day {
+  padding: .5px;
+  text-align: center;
+  padding-left: 5px;
+  font-size: 25px;
+  display: block;
+}
+
+.date .mth {
+  padding: 2px;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+}
+
+.note {
+  width: 60%;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+  outline: none;
+}
